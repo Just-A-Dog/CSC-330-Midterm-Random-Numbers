@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Random Number Table</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Random Numbers</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for num in numbers %}
+            <tr>
+                <td>{{ num }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
